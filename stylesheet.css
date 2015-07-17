@@ -1,0 +1,39 @@
+h1{
+    font-family: dhyana, sans-serif;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 0px;
+}
+
+button {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+#container{
+    display: block;
+    border: 1px solid turquoise;
+    width: 900px;
+    height: 900px;
+}
+
+.controlGroup{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    /*border: 1px solid blue;*/
+}
+
+.box{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    float:left;
+    background-color: white;
+}
+
+.dark{
+    background-color: darkolivegreen;
+}
