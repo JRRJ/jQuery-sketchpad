@@ -103,7 +103,7 @@ $(document).ready(function(){
     $('button').on('click',function(){
         rows = prompt("How many rows?", 16);
         boxSize = Math.floor(900/rows);
-        alert("The new box size will be " + boxSize + " pixels.");
+        //alert("The new box size will be " + boxSize + " pixels.");
         $('#container').empty();
         makeBoxes();
         $('.box').width(boxSize);
