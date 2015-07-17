@@ -100,7 +100,7 @@ function rgb2hex(rgb) {
 // also redraws the grid at a specified size whenever the reset button is pressed.
 $(document).ready(function(){
     makeBoxes();
-    $('button').click(function(){
+    $('button').mousedown(function(){
         rows = prompt("How many rows?", 16);
         boxSize = Math.floor(900/rows);
         //alert("The new box size will be " + boxSize + " pixels.");
